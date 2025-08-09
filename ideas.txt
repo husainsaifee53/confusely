@@ -1,0 +1,6 @@
+
+
+2. Project: "Packet-Loss Messenger"
+The Useless Masterpiece: A peer-to-peer chat application built on a custom-designed, intentionally flawed network protocol. The maker submitted a detailed, RFC-style document for their "Unreliable Conversation Protocol" (UCP). In practice, the app takes your message, breaks it into packets, and then intentionally drops 30% of them while reordering the rest before sending them. A message like, "Hey, let's meet for chai at 5 PM," might arrive as, "meet 5 PM Hey, for at."
+
+Judge's Notes: This project screams "I just finished my Computer Networks course." It shows a deep understanding of how protocols like TCP work by creating its chaotic evil twin. Building a P2P chat app (likely with WebRTC) and then designing a protocol to sabotage the data integrity is a fantastic demonstration of knowing the rules so you can break them creatively. It's a communication tool that guarantees miscommunication.
